@@ -1,0 +1,64 @@
+h1{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+}
+
+#gallery{
+    text-align: center;
+}
+
+.instagram-media{
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: grey;
+}
+
+a:visited{
+    color: blue;
+}
+
+nav {
+    margin-top: 20px;
+    text-align: center;
+    background-color: black;
+    padding: 20px;
+}
+
+nav p{
+    display: inline;
+}
+
+
+nav a:hover{
+    color: black;
+    background-color: grey;
+}
+
+nav a:visited{
+    color: blue;
+}
+
+nav a{
+    color: white;
+    display: inline;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    color: white;
+    background-color: black;
+}
+
+footer a{
+    color: black;
+}
