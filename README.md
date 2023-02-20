@@ -1,2 +1,2 @@
-# KNR-Website
+# KNR Website
 Website for KNR Entreprise
