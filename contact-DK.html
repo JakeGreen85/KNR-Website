@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>KNR Entreprise - Kontakt</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="KNR Entreprise - specializing total entreprenør - Tømrer, murer, maler">
+	<meta name="keywords" content="tømrer, murer, maler">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<!--Make navigation bar horizontal at the very top, and link to other pages on the website-->
+		<nav>
+			<a href="index-DK.html"><img src="pictures/logo.png" alt="" width="5%" style></a>
+			<p><a href="about-DK.html">Om os</a></p>
+			<p><a href="services-DK.html">Ydelser</a></p>
+			<p><a href="gallery-DK.html">Galleri</a></p>
+			<p><a href="contact-DK.html">Kontakt</a></p>
+            <div class="dropdown">
+                <img src="pictures/icons8-globe.gif" alt="" width="5%">
+                <div class="dropdown-content">
+                  <a href="contact-DK.html">Dansk</a> <!--Link to danish version-->
+                  <a href="contact-EN.html">English</a> <!--Link to english version-->
+                </div>
+              </div>
+		</nav>
+		<h1>Kontakt os</h1>
+	</header>
+	<main>
+		<section id="contact">
+            <h2>Øjeblikkelig kontakt</h2>
+            <p>Ring på telefon: +45 12 34 56 78</p>
+            <h2>
+                Haster det ikke?
+            </h2>
+            <p>
+                Udfyld formularen herunder og vi vender tilbage til dig
+            </p>
+            <form action="submit-form.php" method="post">
+                <label for="name">Navn:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Besked:</label>
+                <textarea id="message" name="message" required></textarea>
+                <input type="submit" value="Send">
+            </form>
+        </section>
+	</main>
+	<footer>
+		<p><a href="https://www.instagram.com/knr_entreprise/">Instragram</a></p>
+		<p>&copy; 2023 KNR Entreprise</p>
+	</footer>
+</body>
+</html>
